@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+	
+ <head>
+    <meta charset="UTF-8">
+      <title>✧ I LOVE TOUCHIING KIDS!!!</title>
+   </head>
+   <link rel="stylesheet" href="styles.css">
+   <body>
+      <h1 style="text-align:center"class="small"><mark><u>✧Kid Toucher✧</u></mark></h1>
+      <h2 style="font-size:20px;text-align:center"class="small"><mark style="color:#70f9;">Touch Kids.</mark></h2>
+      <hr><hr>
+	  <div>
+        <button id="genNum" type="button">How Many Children Have You Touched Today??? 🤪🤪🤪</button>
+        <p id="key"></p>
+        <script>
+            let key = 1
+            let button = document.getElementById("genNum");
+            let keyDisplay = document.getElementById("key");
+            button.addEventListener("click", function(){
+                keyDisplay.innerHTML = "You have touched "+Math.floor(Math.random()*10001)+" "+Math.floor(Math.random()*18)+ " year olds today!";
+            }) 
+        </script>
+        <p>...was it really worth all that for this?</p>
+        <h3 style="text-align:center"><a href="../index.html">Back to Homepage</a></h3>
+    </div>
+    <hr>
+</body>
+</html>
